@@ -1,0 +1,9 @@
+<?php
+class product
+{
+     public add()
+     {
+         echo 'this add method';
+     }
+}
+?>

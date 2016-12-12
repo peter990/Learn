@@ -1,0 +1,12 @@
+<?
+function conn(){
+$conn01 = mysql_connect("bdm255853338.my3w.com",'bdm255853338','19941206');//root是帐号,123456是密码
+$mycon=mysql_select_db('bdm255853338_db',$conn01); //testdatabase是mysql数据库名
+if($mycon){
+echo("数据库连接成功");
+}else{
+echo("数据库连接失败");
+}
+}
+conn();
+?>
